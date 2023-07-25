@@ -1,0 +1,369 @@
+.header{
+    .social{
+        // margin: 2em;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    span{
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: rgb(80, 56, 150);
+    }
+    .social-icon{
+        display: flex;
+        font-size: 1.2rem;
+        
+    }
+    .icon {
+        color: rgb(255, 255, 255)  ;
+        background-color: rgb(80, 56, 150);
+        margin-right: 0.1em;
+        padding: 0em 0.3em 0.3em 0.3em;
+        border-radius: 5px;
+    }
+    
+    
+    .main-header{
+        background-color:#FC7E13 !important;
+        img{
+            width: 180px;
+            height: 60px;
+            
+        }
+        a{
+            font-size: 1.4rem;
+            font-weight: 500;
+            color: rgb(252, 251, 251) !important;
+            
+        }
+        .dropdown-item{
+            color: black!important;
+        }
+        
+        .contact{
+            background-color: #2d03fd;
+            padding: 0.5em 0.8em 0.5em 0.4em;
+            margin: 0 0 0 -0.7em;
+            color: white !important;
+        }
+        .contact:hover{
+            background-color: rgb(80, 40, 223);
+        }
+        .us{
+            background-color: rgb(80, 40, 223);
+            padding: 0.5em 1em 0.5em 0.4em;
+            margin: 0 -0.6em 0 -1em;
+            color: white !important;
+        }
+        .us:hover{
+            background-color:#2d03fd ;
+        }
+    }
+
+}
+
+
+////...................hero...........///////
+.hero{
+    
+    .col-md-8{
+        text-align: center;
+        margin-top: 1em;
+        
+    }
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 10rem;
+        font-weight: 600;
+        
+    }
+    .btn1{
+        background-color: #FC7E13;
+        border: 2px solid #FC7E13;
+    }
+    .btn1:hover{
+        background-color: transparent;
+        border: #FC7E13 2px solid;
+        color: black;
+    }
+    .btn2{
+        border: 2px solid #FC7E13;
+    }
+    .btn2:hover{
+        background-color: #FC7E13;
+        color: white;
+    }
+
+}
+
+
+////...................herocarousel...........///////
+.herocarousel{
+    .carousel{
+        border-right: 3px solid #FC7E13 ;
+    }
+    p{
+        padding-top: 0.8em ;
+        padding-left: 0.5em;
+        font-size: 1.2rem;
+    }
+}
+
+// ..............About Us.......................//
+.about{
+    
+    h1{
+        display: flex;
+        justify-content: center;
+    }
+    p{
+        display: flex;
+        justify-content: center;
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
+    .row{
+        display: flex;
+        justify-content: space-between;
+
+        .mission{
+            background-color: #f5f5f5;
+            border-radius: 100% 0 100% 0/0 75% 25% 100%;
+            border-bottom: 10px solid #fc7e13;
+            margin-top: 4em;
+            margin-right: -4em;
+           
+        }
+        h1{
+            justify-content: start;
+            margin: 0.4em 0em 0.5em 0em;
+        }
+        p{
+            margin: 0.4em 2em 3em 0em;
+            font-size: 1.1rem;
+            text-align: start;
+            
+            
+        }
+        .vision{
+            background-color: #f5f5f5;
+            border-radius: 100% 0 100% 0/0 75% 25% 100%;
+            border-bottom: 10px solid #1f274f;
+            margin-top: 4em;
+
+
+        
+        }
+        
+    }
+    
+}
+
+
+// ................Our Services ......................//
+
+.services{
+    background-color: #1f274f !important;
+    .card{
+        margin-left: 18px;
+        border-radius: 69% 31% 97% 10%/0 100% 0 100%;
+        border-top: 15px solid #fc7e13;
+
+    }
+
+}
+
+
+// ................Choose Us ......................//
+
+.chooseUs{
+    .text-data{
+        h1{
+            font-size: 3.3rem;
+            text-align: start;
+        }
+        p{
+            text-align: start;
+            font-size: 1.2rem;
+            
+        }
+    }
+    .card{
+        background-color: #f5f5f5;
+        
+    }
+    .card-text{
+        font-size: 0.9em;
+    }
+}
+
+//..................Engagement................//
+
+.engagement{
+    background-color: #1F274F;
+    color: white;
+    p{
+        margin-left: 3em;
+        font-size: 1rem;
+    }
+    .card2{
+        border-left: 3px solid #FC7E13 !important;
+    }
+}
+
+//..................Testomonial................//
+.testomonial{
+    .text{
+        font-size: 1.3em;
+        
+    }
+    .card{
+        width: 20rem;
+    }
+    h4{
+        color: #FC7E13; 
+    }
+
+}
+.appointment{
+    background-color: #1F274F;
+    .form-control{
+        border: 0;
+        border: 2px solid #FC7E13;
+        border-radius: 5px;
+    }
+    .btn{
+        background: #fc7e13;
+    border: 1px solid #FC7E13;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    padding: 12px 35px;
+    transition: .5s;
+    }
+    .card{
+        .row{
+            // background-color: rgb(226, 223, 223);
+            border-top: 1px solid #afbdcf;
+        }
+        h6{
+            font-weight: 700;
+            font-size: 1.2em;
+        }
+        .card-text{
+            padding: 0 8em 0 8em;
+        }
+        p{
+            font-size: 0.9em;
+        }
+        a{
+            text-decoration: none;
+        }
+    }
+}
+
+
+// ...............Team......................./../
+
+.team{
+    img{
+        min-width: 400px;
+        max-width: 400px;
+        min-height: 400px;
+        max-height: 400px;
+    }
+}
+
+//.....................FAQ...................///////
+
+.faq{
+    // background-color: #0b132b;
+    color: rgb(12, 12, 12);
+  .asked{
+    font-size: 15px;
+    color: #6d8bb0  ;
+  }
+  .faq-row{
+    background-color: #1f2947 !important;
+    border-radius: 10px;
+    
+  }
+  .styles_faq-row-wrapper__3vA1D .styles_faq-row__2YF3c{
+    border-bottom: none;
+  }
+    
+    .styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c {
+  margin-top: 10px !important;
+  }
+  .styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-title__1YiiY.styles_no-tabfocus__1HmyD {
+    padding: 13px !important;
+  }
+  .styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-content__QOGZd .styles_row-content-text__2sgAB {
+    margin: 1em 2em !important;
+    font-size: 1.3rem !important;
+    padding: 1em !important;
+    color: white !important; 
+    background-color: #FC7E13;
+    border-radius: 10px !important;
+  }
+  .styles_faq-row-wrapper__3vA1D {
+    background-color:  #1F274F!important;
+    outline: none !important;
+    border-radius: 10px !important;
+  }
+}
+// ...............Footer......................./../
+
+.footer{
+
+    background-color: #fc7e13 !important;
+    width: 100% !important;
+    height: 110vh !important;
+
+    img{
+        height: 18vh;
+        width: 220px;
+        margin-top: 1em;
+    }
+    .p1{
+        text-align: start !important;
+        margin-top: 0.05em !important;
+    }
+    .row{
+        margin-top: 130px !important;
+
+    }
+    h4{
+        margin-top: 50px !important;
+        color: white !important;
+        text-align: start !important;
+    }
+    
+    li{
+        
+        color: white !important;
+        text-align: start !important;
+        line-height: 4 !important;
+        
+    }
+    .footer-icons{
+        color: white !important;
+        margin-top: -100px !important;
+    }
+    p{
+        margin-top: -100px !important;
+        color: white !important;
+        
+    }
+    .hr2{
+        margin-top: 50px !important;
+    }
+    span{
+        color: white;
+        // font-size: 1.2rem;
+        justify-content: center !important;
+    }
+}
